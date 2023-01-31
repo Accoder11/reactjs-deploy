@@ -1,3 +1,9 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .header-main {
     width: 100%;
     height: 10vh;
@@ -6,17 +12,35 @@
 }
 
 .main-body {
-    background-color: pink;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
 }
 
 .footer-main {
-    background-color: yellow;
     width: 100%;
     height: 10vh;  
 }
+ 
+.shop-now {
+    size: 300px;
+    color: white;
+    background-color: red;
+    font-size: 30px;
+    outline-style: groove;
+    border-radius: 5px;
+}
 
+.shop-now:hover {
+    border: 1px solid black;
+}
+
+.form-border {
+    background-color: whitesmoke;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* 
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -24,6 +48,6 @@
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-  }
+  } */
 
      

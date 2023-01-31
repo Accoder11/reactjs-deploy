@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Header() {
   return (
-    <Navbar sticky="top" bg="light" expand="lg">
+    <Navbar sticky="top" bg="warning" expand="lg">
       <Container>
         <Navbar.Brand href="#">REACT Store</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
