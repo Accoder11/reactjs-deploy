@@ -1,14 +1,17 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.css';
-import Count from './Count'
-
+import Header from './Header'
+import Main from './Main'
+import Footer from './Footer'
+import './css/landing.css'
 
 
 const App = () => {
     return(
-        <>
-        <Count></Count>
-        </>
+        <div className="bg-warning bg-gradient">
+        <Header></Header>
+        <Main></Main>
+        <Footer></Footer>
+        </div>
     )
 }
 
