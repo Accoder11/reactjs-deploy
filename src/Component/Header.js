@@ -1,5 +1,6 @@
 import React from "react";
-// import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -11,7 +12,7 @@ const Header = () => {
   return (
     <Navbar sticky="top" bg="warning" expand="lg">
       <Container fluid className="mx-auto">
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="/">
           <img src={mylogo} alt= "logo" className="mylogo"/>T-Shirt Store</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -20,12 +21,12 @@ const Header = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Button href="/" className="border = none">HOME</Button>
-            <Button href="categories" className="border = none">CATEGORIES</Button>
-            <Button href="shop" className="border = none">FEATURED BRANDS</Button>
-            <Button href="products" className="border = none" >ALL PRODUCTS</Button>
-            <Button href="about" className="border = none">ABOUT</Button>
-            
+            <Button className="border = none" href="/">HOME</Button>
+            <Button className="border = none" href="categories">CATEGORIES</Button>
+            <Button className="border = none" href="shop">FEATURED BRANDS</Button>
+            <Button className="border = none" href="products" >ALL PRODUCTS</Button>
+            <Button className="border = none" href="about">ABOUT</Button>
+            <Button className="border = none" href="#action2">CONTACT</Button>
             
           </Nav>
           <Form className="d-flex">
