@@ -2,13 +2,13 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Count from "./Count";
-import ImageAndCard from './Card';
-import Carousels from './Carousel'
+import Count from "../Component/Count";
+import ImageAndCard from '../Component/Card';
+import Carousels from '../Component/Carousel'
 import Categories from './Categories'
 import Shop from "./Shop";
 import AboutUs from "./AboutUs";
-import Feedback from "./Feedback";
+import Feedback from "../Component/Feedback";
 
 
 const Main = () => {

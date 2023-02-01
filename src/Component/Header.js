@@ -23,10 +23,11 @@ const Header = () => {
           >
             <Button className="border = none" href="/">HOME</Button>
             <Button className="border = none" href="categories">CATEGORIES</Button>
-            <Button className="border = none" href="shop">SHOP</Button>
+            <Button className="border = none" href="shop">FEATURED BRANDS</Button>
+            <Button className="border = none" href="products" >ALL PRODUCTS</Button>
             <Button className="border = none" href="about">ABOUT</Button>
             <Button className="border = none" href="#action2">CONTACT</Button>
-            <Button className="border = none" href="#action2" >BLOG</Button>
+            
           </Nav>
           <Form className="d-flex">
             <Form.Control
