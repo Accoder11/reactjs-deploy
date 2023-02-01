@@ -1,12 +1,20 @@
 import React from 'react'
-import ReactDom from 'react-dom'
+import ReactDOM from 'react-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App'
-import { BrowserRouter } from "react-router-dom";
+// import './css/index.css';
+// import './css/styles.css';
+import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  document.getElementById("root")
-);
+const root = ReactDOM.createRoot(
+  document.getElementById("root"));
+  root.render(
+    <React.StrictMode>
+      <BrowserRouter>
+      <App/>
+      </BrowserRouter>
+    </React.StrictMode>
+  );
+
+  reportWebVitals();

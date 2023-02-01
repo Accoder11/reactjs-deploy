@@ -6,12 +6,14 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import mylogo from '../img/logo.png';
 
 const Header = () => {
   return (
     <Navbar sticky="top" bg="warning" expand="lg">
-      <Container>
-        <Navbar.Brand href="#">REACT Store</Navbar.Brand>
+      <Container fluid className="mx-auto">
+        <Navbar.Brand href="/">
+          <img src={mylogo} alt= "logo" className="mylogo"/>T-Shirt Store</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -19,13 +21,12 @@ const Header = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="/">HOME</Nav.Link>
-            <Nav.Link href="#action1">CATEGORIES</Nav.Link>
-            <Nav.Link href="#action1">SHOP</Nav.Link>
-            <Nav.Link href="about">ABOUT</Nav.Link>
-            <Nav.Link href="#action2">CONTACT</Nav.Link>
-            <Nav.Link href="#action2">ACOUNT</Nav.Link>
-            <Nav.Link href="#action2">BLOG</Nav.Link>
+            <Button className="border = none" href="/">HOME</Button>
+            <Button className="border = none" href="categories">CATEGORIES</Button>
+            <Button className="border = none" href="shop">SHOP</Button>
+            <Button className="border = none" href="about">ABOUT</Button>
+            <Button className="border = none" href="#action2">CONTACT</Button>
+            <Button className="border = none" href="#action2" >BLOG</Button>
           </Nav>
           <Form className="d-flex">
             <Form.Control
@@ -34,7 +35,7 @@ const Header = () => {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button className="border = none">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>

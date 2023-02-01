@@ -5,20 +5,25 @@ import Main from './Component/Main'
 import Footer from './Component/Footer'
 import './css/landing.css'
 import AboutUs from './Component/AboutUs';
-
+import Categories from './Component/Categories';
+import Shop from './Component/Shop';
 
 
 const App = () => {
     return(
         <div className="App bg-light bg-gradient">
+            <Header></Header>
             <Routes>
-                <Route path='/' element={ <Header/> } />
-                <Route path='main' element={ <Main/> } />
+                <Route path='/' element={ <Main/> } />
+                <Route path='categories' element={ <Categories/> } />
+                <Route path='shop' element={ <Shop/> } />
                 <Route path='about' element={ <AboutUs/> } />
-                <Route path='footer' element={ <Footer/> } />
             </Routes>
+            <Footer></Footer>
         </div>
     )
 }
+
+// header and footer are constant unlike those inside "ROUTES"
 
 export default App;

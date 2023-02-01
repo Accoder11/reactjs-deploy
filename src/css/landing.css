@@ -40,6 +40,27 @@ html, body {
     padding: 10px;
 }
 
+.border {
+    margin: auto 5px;
+    color:black;
+    outline-style: inset;
+    outline-width: 1px;
+    background-color: whitesmoke;
+}
+
+.border:hover {
+    margin: auto 5px;
+    color:black;
+    outline-style: groove;
+    outline-width: 1px;
+    background-color: gold;
+}
+
+.mylogo{
+    width: 60px;
+    margin: auto 2px;
+}
+
 /* 
 .fa {
     padding: 20px;
