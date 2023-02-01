@@ -11,6 +11,9 @@ const Shop = () => {
   };
 
   return (
+    <div>
+      <h1 className="my-5">Featured Products</h1>
+    
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
       <CardGroup>
@@ -125,6 +128,7 @@ const Shop = () => {
     </CardGroup>
       </Carousel.Item>
     </Carousel>
+    </div>
   );
 }
 

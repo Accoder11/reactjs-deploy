@@ -22,14 +22,13 @@ const Main = () => {
       </Col>
       </Row>
       </Container>
+
       <Container fluid className="my-5 mx-auto bg-warning">
-      <h1 className="my-3">Categories</h1>
       <Categories></Categories>
       </Container>
       
       <Container fluid className="mb-5 mx-auto bg-warning">
         <div>
-        <h1 className="my-5">Featured Products</h1>
         <Shop></Shop>
         </div>
       </Container >

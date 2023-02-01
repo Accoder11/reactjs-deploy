@@ -9,7 +9,7 @@ const Footer = () => {
       <Container fluid className='text-center text-lg-start bg-warning text-muted'>
         <div>
           © 2023 Copyright: 
-          <a className='text-reset fw-bold' href='#'> kodegoPh.com
+          <a className='footer-link fw-bold' href='https://accoder11.github.io/react-playground' target="_blank"> kodegoPh.com
           </a>
         </div>
       </Container>
