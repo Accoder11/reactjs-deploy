@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -22,11 +22,11 @@ const Header = () => {
             navbarScroll
           >
             <Button className="border = none" href="/">HOME</Button>
-            <Button className="border = none" href="categories">CATEGORIES</Button>
-            <Button className="border = none" href="shop">FEATURED BRANDS</Button>
-            <Button className="border = none" href="products" >ALL PRODUCTS</Button>
-            <Button className="border = none" href="about">ABOUT</Button>
-            <Button className="border = none" href="#action2">CONTACT</Button>
+            <Button className="border = none" href="/categories">CATEGORIES</Button>
+            <Button className="border = none" href="/shop">FEATURED BRANDS</Button>
+            <Button className="border = none" href="/products" >ALL PRODUCTS</Button>
+            <Button className="border = none" href="/about">ABOUT</Button>
+            <Button className="border = none" href="#">CONTACT</Button>
             
           </Nav>
           <Form className="d-flex">
